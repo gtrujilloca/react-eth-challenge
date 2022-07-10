@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Academic = () => {
-  const {
-    academic
-  } = useContext(AppContext)
+const Academic = ({academic}) => {
+  // const {
+  //   academic
+  // } = useContext(AppContext)
 
   return (
     <section>

@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Experience = () => {
+const Experience = ({experience}) => {
 
-  const {
-    experience
-  } = useContext(AppContext)
+  // const {
+  //   experience
+  // } = useContext(AppContext)
 
   return (
     <div>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
 
-const About = () => {
+const About = (props) => {
 
   const {
     profession,
@@ -11,7 +11,15 @@ const About = () => {
     website,
     address,
     social
-  } = useContext(AppContext)
+  } = props
+  // const {
+  //   profession,
+  //   phone,
+  //   email,
+  //   website,
+  //   address,
+  //   social
+  // } = useContext(AppContext)
 
   return (
     <div className='information-container'>

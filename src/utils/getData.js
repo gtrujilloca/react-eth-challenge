@@ -1,5 +1,5 @@
 
-const getData = async(url = '')  => {
+async function getData(url = '') {
   try {
     if (!url) return new Error('must have url')
     const response = await fetch(url)

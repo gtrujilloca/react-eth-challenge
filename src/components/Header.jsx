@@ -1,12 +1,17 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Header = ({children}) => {
+const Header = (props) => {
 
   const {
     avatar,
-    name
-  } = useContext(AppContext)
+    name,
+    children
+  } = props
+  // const {
+  //   avatar,
+  //   name
+  // } = useContext(AppContext)
 
   return (
     <div className='Header-container'>

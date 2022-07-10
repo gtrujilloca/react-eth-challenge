@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Skills = () => {
-  const {
-    skills
-  } = useContext(AppContext)
+const Skills = ({skills}) => {
+  // const {
+  //   skills
+  // } = useContext(AppContext)
 
   return (
     <div>

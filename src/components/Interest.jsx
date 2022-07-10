@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Interest = () => {
-  const {
-    interest
-  } = useContext(AppContext)
+const Interest = ({interest}) => {
+  // const {
+  //   interest
+  // } = useContext(AppContext)
 
   console.log(interest);
   return (

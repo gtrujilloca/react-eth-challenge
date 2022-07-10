@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import AppContext from '../context/context'
 
-const Languages = () => {
-  const {
-    languages
-  } = useContext(AppContext)
+const Languages = ({languages}) => {
+  // const {
+  //   languages
+  // } = useContext(AppContext)
 
   return (
     <div>
